@@ -1,0 +1,47 @@
+body {
+    font-family: sans-serif;
+    background: #f4f4f4;
+    padding: 20px;
+}
+
+.container {
+    background: white;
+    padding: 20px;
+    border-radius: 10px;
+    max-width: 800px;
+    margin: auto;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+h1 {
+    text-align: center;
+    color: #2c3e50;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+th, td {
+    border: 1px solid #ddd;
+    padding: 10px;
+}
+
+th {
+    background-color: #3498db;
+    color: white;
+}
+
+.tombol {
+    padding: 6px 12px;
+    text-decoration: none;
+    margin-right: 5px;
+    border-radius: 4px;
+    color: white;
+}
+
+.tambah { background: #2ecc71; }
+.edit { background: #f1c40f; }
+.hapus { background: #e74c3c; }
